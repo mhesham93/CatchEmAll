@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4457E2E12942E9600006C6EA /* CreaturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4457E2E02942E9600006C6EA /* CreaturesViewModel.swift */; };
+		4457E2E32944112E0006C6EA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4457E2E22944112E0006C6EA /* DetailView.swift */; };
+		4457E2E5294414280006C6EA /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4457E2E4294414280006C6EA /* Creature.swift */; };
+		4457E2E7294416680006C6EA /* CreatureDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4457E2E6294416680006C6EA /* CreatureDetailViewModel.swift */; };
 		445D2F00294035AB001D45A8 /* CatchEmAllApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D2EFF294035AB001D45A8 /* CatchEmAllApp.swift */; };
-		445D2F02294035AB001D45A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D2F01294035AB001D45A8 /* ContentView.swift */; };
+		445D2F02294035AB001D45A8 /* CreaturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D2F01294035AB001D45A8 /* CreaturesListView.swift */; };
 		445D2F04294035AD001D45A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445D2F03294035AD001D45A8 /* Assets.xcassets */; };
 		445D2F07294035AD001D45A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445D2F06294035AD001D45A8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4457E2E02942E9600006C6EA /* CreaturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesViewModel.swift; sourceTree = "<group>"; };
+		4457E2E22944112E0006C6EA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4457E2E4294414280006C6EA /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		4457E2E6294416680006C6EA /* CreatureDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureDetailViewModel.swift; sourceTree = "<group>"; };
 		445D2EFC294035AB001D45A8 /* CatchEmAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchEmAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		445D2EFF294035AB001D45A8 /* CatchEmAllApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchEmAllApp.swift; sourceTree = "<group>"; };
-		445D2F01294035AB001D45A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		445D2F01294035AB001D45A8 /* CreaturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesListView.swift; sourceTree = "<group>"; };
 		445D2F03294035AD001D45A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		445D2F06294035AD001D45A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				445D2EFF294035AB001D45A8 /* CatchEmAllApp.swift */,
-				445D2F01294035AB001D45A8 /* ContentView.swift */,
+				4457E2E4294414280006C6EA /* Creature.swift */,
+				445D2F01294035AB001D45A8 /* CreaturesListView.swift */,
+				4457E2E22944112E0006C6EA /* DetailView.swift */,
+				4457E2E02942E9600006C6EA /* CreaturesViewModel.swift */,
+				4457E2E6294416680006C6EA /* CreatureDetailViewModel.swift */,
 				445D2F03294035AD001D45A8 /* Assets.xcassets */,
 				445D2F05294035AD001D45A8 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				445D2F02294035AB001D45A8 /* ContentView.swift in Sources */,
+				4457E2E12942E9600006C6EA /* CreaturesViewModel.swift in Sources */,
+				4457E2E32944112E0006C6EA /* DetailView.swift in Sources */,
+				445D2F02294035AB001D45A8 /* CreaturesListView.swift in Sources */,
+				4457E2E5294414280006C6EA /* Creature.swift in Sources */,
+				4457E2E7294416680006C6EA /* CreatureDetailViewModel.swift in Sources */,
 				445D2F00294035AB001D45A8 /* CatchEmAllApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
